@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos - Cajamarca</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #7f2a72;
+            color: #ffd34e; 
+        }
+        header {
+            background-color: #3f0c3c;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #6e3164;
+            padding: 0.5em 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 1em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .place-details {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            color: #624514; 
+        }
+        .place-details img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .place-description {
+            flex: 1;
+        }
+        .lists {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            color: #624514; 
+        }
+        footer {
+            background-color: #410942;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos en Cajamarca</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="lugares.html">Lugares Turísticos</a>
+        <a href="interactividad.html">Contacto</a>
+        <a href="dashboard.html">Dashboard</a>
+    </nav>
+
+    <div class="container">
+        <h2>Principales Atracciones</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sitio</th>
+                    <th>Ubicación</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cuarto del Rescate</td>
+                    <td>Centro histórico</td>
+                    <td>Último refugio del Inca Atahualpa antes de su captura por los españoles.</td>
+                </tr>
+                <tr>
+                    <td>Cumbemayo</td>
+                    <td>A 20 km de Cajamarca</td>
+                    <td>Sitio arqueológico con un antiguo canal de piedra preincaico y formaciones rocosas llamadas “frailones”. Ideal para senderismo y exploración.</td>
+                </tr>
+                <tr>
+                    <td>Baños del Inca</td>
+                    <td>6 km de la ciudad</td>
+                    <td>Aguas termales utilizadas desde la época incaica con propiedades terapéuticas.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Detalles de los Sitios Turísticos</h2>
+
+        <div class="place-details">
+            <img src="cuarto del rescate.jpg" alt="Cuarto del Rescate">
+            <div class="place-description">
+                <h3>Cuarto del Rescate</h3>
+                <p>
+                   Fue el último refugio del Inca Atahualpa antes de ser ejecutado por los conquistadores españoles. Según la historia, Atahualpa ofreció llenar este cuarto de oro y dos más de plata a cambio de su liberación.
+                </p>
+            </div>
+        </div>
+
+        <div class="place-details">
+            <img src="Cumbemayo.jpg" alt="Cumbemayo">
+            <div class="place-description">
+                <h3>Cumbemayo</h3>
+                <p>
+                    Alberga un acueducto tallado en piedra que data de unos 1,000 años a.C. y que servía para transportar agua desde la parte alta de la montaña a zonas agrícolas más bajas.
+                </p>
+            </div>
+        </div>
+
+        <div class="place-details">
+            <img src="Bañoos-del-Inca-Cajamarca.jpg" alt="Baños del Inca">
+            <div class="place-description">
+                <h3>Baños del Inca</h3>
+                <p>
+                   Son aguas termales naturales que los incas, y especialmente el Inca Atahualpa, utilizaban para relajarse y curarse. Eran parte de su sistema de bienestar físico y espiritual.
+                </p>
+            </div>
+        </div>
+
+        <section class="lists">
+            <h2>Información Relevante</h2>
+            <h3>Cosas para hacer:</h3>
+            <ul>
+                <li>Visitar mercados artesanales.</li>
+                <li>Disfrutar de la gastronomía local.</li>
+                <li>Participar en festivales culturales.</li>
+                <li>Explorar senderos naturales.</li>
+            </ul>
+
+            <h3>Mejor época para visitar:</h3>
+            <ol>
+                <li>Junio - Agosto (temporada seca / invierno andino) - Visitas culturales e históricas con 
+                clima fresco y cielos despejados, ideal para caminar por el centro histórico sin lluvias.</li>
+                <li>Julio - Septiembre (temporada seca con días soleados) - Senderismo, fotografía y exploración
+                 arqueológica. El clima seco y las vistas despejadas permiten recorrer el canal y 
+                 las formaciones rocosas con mayor comodidad y seguridad.</li>
+                <li>Marzo - Octubre (época templada y seca) - Relajarse en aguas termales durante días frescos o nublados. Excelente para actividades de bienestar y descanso familiar.</li>
+            </ol>
+        </section>
+
+        <h2>Multimedia del Lugar</h2>
+        <section class="multimedia">
+            <h3>Video sobre Cutervo</h3>
+            <video width="640" height="360" controls>
+                <source src="CUTERVO.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+
+            <h3>Música de Cajamarca</h3>
+            <audio controls>
+                <source src="musica cajamarca.mp3" type="audio/mpeg">
+                Tu navegador no soporta la etiqueta de audio.
+            </audio>
+            <a href="http://youtube.com/watch?v=gduao_LJADg">Carnaval Cajamarca</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Portal Turístico de Cajamarca. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
